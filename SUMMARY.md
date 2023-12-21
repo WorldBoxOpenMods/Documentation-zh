@@ -20,6 +20,7 @@
 * [👌 模组声明](./BasicConcept/ModDeclaration.md)
 * [🎨 模组接口](./BasicConcept/ModInterface.md)
 * [🥳 模组设置](./BasicConcept/ModConfiguration.md)
+* [👍 模组依赖](./BasicConcept/ModDependency.md)
 
 ## 😪 高阶技术
 
