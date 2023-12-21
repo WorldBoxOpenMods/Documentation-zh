@@ -47,7 +47,7 @@ public class ModDeclare
 
 ## 多语言
 
-在模组文件夹下创建`Locales`文件夹, 参考`ModTemplate`中的写法即可. 目前仅支持json文件.
+在模组文件夹下创建`Locales`文件夹, 参考`ModTemplate`中的写法即可. 目前仅支持json和csv文件.
 
 # 其他常用特性
 
@@ -60,6 +60,8 @@ public class ModDeclare
 * 在多线程情况下使用的`LogInfoConcurrent`, `LogWarningConcurrent`, `LogErrorConcurrent`.
 
 ## 贴图
+
+在模组文件夹下创建一个名为`GameResources`的文件夹, 其中的`.png`,`.jpg`,`.jpeg`会由对应的`.meta`文件或`sprites.json`文件解释然后加载进游戏, 可以通过`Resources.Load`, `SpriteTextureLoader.getSprite`相关函数进行加载. 具体见[模组资源概览](../ModResources/Overview.md).
 
 `NeoModLoader.utils.SpriteLoadUtils`提供了
 
