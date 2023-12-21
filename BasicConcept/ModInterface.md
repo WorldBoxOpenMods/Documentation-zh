@@ -62,6 +62,8 @@ public void OnLoad(ModDeclare pModDecl, GameObject pGameObject);
 public ModConfig GetConfig();
 ```
 
+`ModConfig`相关具体见[模组设置](./ModConfiguration.md)
+
 # ILocalizable
 
 当一个模组主类实现了`ILocalizable`, 那么就会自动在模组`OnLoad`加载前为其加载本地化文本(.csv和.json两种格式). 貌似没什么用,
