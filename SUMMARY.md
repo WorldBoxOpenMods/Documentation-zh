@@ -21,6 +21,7 @@
 * [🎨 模组接口](./BasicConcept/ModInterface.md)
 * [🥳 模组设置](./BasicConcept/ModConfiguration.md)
 * [👍 模组依赖](./BasicConcept/ModDependency.md)
+* [🤗 多语言文本](./BasicConcept/Multilingual.md)
 
 ## 😪 高阶技术
 
