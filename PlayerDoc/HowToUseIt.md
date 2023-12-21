@@ -30,4 +30,4 @@
 
 点击该按钮前往反馈, 如果跳转到https://github.com/WorldBoxOpenMods, 则该模组未提供相关页面或网址.
 
-![1703155303361](image/HowToUseIt/1703155303361.png)
+![1703155303361](../image/PlayerUsage/1703155303361.png)
