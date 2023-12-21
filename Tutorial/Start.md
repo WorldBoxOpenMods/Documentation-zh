@@ -61,7 +61,6 @@ layout:
 
 ## Debug
 
+* `BepInEx` 并开启`BepInEx\config\BepInEx.cfg`中`Logging.Console` `Enable`项, 原版的控制台太难用了, 这个选中其中文本能够冻结游戏.
 * `UnityExplorer` 一个BepInEx插件
-
-
-
+* IDE调试开发包(包含了所有游戏源码和资源, 暂不开放)

@@ -16,7 +16,7 @@ layout:
 
 <figure><img src=".gitbook/assets/WBOM-logo2.png" alt=""><figcaption></figcaption></figure>
 
-NeoModLoader支持识别/加载以下几种模组:
+NeoModLoader(简称NML)支持识别/加载以下几种模组:
 
 | 模组类型    | 提供支持 |
 | ------- | ---- |

@@ -1,23 +1,15 @@
 # Table of contents
 
 * [🏠 主页](README.md)
-* [NeoModLoader介绍](neomodloader-jie-shao.md)
+* [😀 介绍](intro.md)
 
-## NeoMod
+## 教程
 
-* [起点](neomod/qi-dian.md)
-* [创建Mod项目](neomod/chuang-jian-mod-xiang-mu.md)
-* [模组声明](neomod/mo-zu-sheng-ming.md)
+* [😅 预先准备](Tutorial/Start.md)
+* [😎 创建一个模组](Tutorial/CreateMod.md)
+* [☺️ 常用NML功能](./Tutorial/CommonFeatures.md)
+* [🤔 其他常用](./Tutorial/CommonOthers.md)
 
-## BepInEx
+## 基础概念
 
-* [起点, 也是终点](bepinex/qi-dian-ye-shi-zhong-dian.md)
-
-## NCMS
-
-* [起点, 也是终点](ncms/qi-dian-ye-shi-zhong-dian.md)
-
-## 通用
-
-* [NML机制介绍](tong-yong/nml-ji-zhi-jie-shao.md)
-* [模组上传](tong-yong/mo-zu-shang-chuan.md)
+* [👌 模组声明](./BasicConcept/ModDeclaration.md)
