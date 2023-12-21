@@ -13,11 +13,9 @@ layout:
     visible: true
 ---
 
-# 起点
-
 在这一节, 配置开发环境.
 
-## 人
+# 人
 
 1. 你需要是一个智力完备且拥有独立思考能力的人
 2. 为了更好地解决你会遇到的问题, 建议先阅读[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh\_CN.md)
@@ -26,14 +24,14 @@ layout:
 
 
 
-## 基础环境
+# 基础环境
 
 * 游戏本体
 * 安装NeoModLoader
 
 
 
-## 代码编辑器
+# 代码编辑器
 
 下面有几种可选的, 按推荐程度排序:
 
@@ -44,7 +42,7 @@ layout:
 
 
 
-## 查看游戏源码
+# 查看游戏源码
 
 这里推荐两者同用, 恰好互补
 
@@ -53,13 +51,13 @@ layout:
 
 
 
-## 查看游戏资源
+# 查看游戏资源
 
 * `AssetRipper` 能够将游戏导出为Unity工程文件
 
 
 
-## Debug
+# Debug
 
 * `BepInEx` 并开启`BepInEx\config\BepInEx.cfg`中`Logging.Console` `Enable`项, 原版的控制台太难用了, 这个选中其中文本能够冻结游戏.
 * `UnityExplorer` 一个BepInEx插件

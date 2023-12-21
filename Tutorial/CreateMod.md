@@ -1,11 +1,9 @@
-# 创建Mod项目
-
-这里有两个可选项:
+# 两个可选项:
 
 1. 从Mod模板创建
 2. 从空文件夹创建
 
-## 从Mod模板创建
+# 从Mod模板创建
 
 如果你会使用Git并且有配置SSH Key后的Github的话, 在`GamePath/Mods`下执行即可
 
@@ -26,7 +24,7 @@ git clone git@github.com:WorldBoxOpenMods/ModTemplate.git 模组名
 
 然后在`ModClass.cs`文件中的`OnModLoad`函数中初始化你的模组. `BasicMod`继承自`MonoBehaviour`, 你可以实现`MonoBehaviour`所有其他的函数. 
 
-## 从空文件夹创建
+# 从空文件夹创建
 
 在`GamePath/Mods`文件夹下创建一个文件夹, 在里面放一个下面所示的`mod.json`和`Main.cs`文件, 其中的中文均需要修改
 
@@ -77,11 +75,11 @@ public class ModClass : IMod, MonoBehaviour
 
 到这里一个最简单的模组已经完成.
 
-## 注意
+# 注意
 
 对于一个实现`IMod`的模组(包括继承了`BasicMod`的模组), 函数调用顺序会是`OnLoad`(`OnModLoad`)->`Awake`->`OnEnable`->`Start`->`Update`->`Update`->...->`Update`
 
-## 加载运行模组
+# 加载运行模组
 
 如果没有出错的话, 应该能够在游戏控制台里找到
 
