@@ -62,3 +62,11 @@ layout:
 * `BepInEx` 并开启`BepInEx\config\BepInEx.cfg`中`Logging.Console` `Enable`项, 原版的控制台太难用了, 这个选中其中文本能够冻结游戏.
 * `UnityExplorer` 一个BepInEx插件
 * IDE调试开发包(包含了所有游戏源码和资源, 暂不开放)
+
+# 示例代码
+
+现在的一些开放的NeoMod代码仓库
+
+* [ModExample](https://github.com/WorldBoxOpenMods/ModExample/) 一个纯粹的示例代码仓库, 将会包含该文档几乎所有功能的示例代码
+* [中文名](https://github.com/WorldBoxOpenMods/ChineseName) 
+* [启源核心](https://github.com/inmny/Cultivation-Way-Core) 一个大型模组, 如果只是为了找代码示例, 不推荐看这个
