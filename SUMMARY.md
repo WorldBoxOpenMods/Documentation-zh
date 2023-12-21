@@ -7,7 +7,7 @@
 
 * [😅 预先准备](Tutorial/Start.md)
 * [😎 创建一个模组](Tutorial/CreateMod.md)
-* [☺️ 常用NML功能](./Tutorial/CommonFeatures.md)
+* [😘 常用NML功能](./Tutorial/CommonFeatures.md)
 * [🤔 其他常用](./Tutorial/CommonOthers.md)
 
 ## 基础概念
