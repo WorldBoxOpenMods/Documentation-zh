@@ -22,8 +22,17 @@
 
 # 使用方法
 
-让你的模组主类实现`IReloadable`模组功能接口.
+1. 让你的模组主类实现`IReloadable`模组功能接口.
+   
+2. 运行游戏
+3. 遇到问题
+4. 给需要修改的函数添加`Hotfixable`特性
+5. 修改函数
+6. 点击游戏内的模组重载按钮
 
+# 使用示例
+
+视频没录, 等等吧, 上面应该说得很清楚了.
 
 # 提示
 
@@ -32,3 +41,11 @@
 3. `Reload`函数本身也能添加`Hotfixable`特性
 4. 你可以在游戏运行时给别的函数加上`Hotfixable`
 5. 你可以在游戏运行时定义新的函数, 也需要标注`Hotfixable`
+6. 匿名函数也可以标注`Hotfixable`进行热更新, 下面所示代码
+
+```csharp
+trait.action_special_effect = [Hotfixable] (pTarget, pTile) =>
+{
+    LogService.LogInfo("Before hotfixed trait action");
+}
+```
