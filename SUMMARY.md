@@ -8,7 +8,7 @@
 * [📔 使用说明](./PlayerDoc/HowToUseIt.md)
 * [🐴 注意事项](./PlayerDoc/Attention.md)
 
-## 😅 教程
+## 😅 模组制作教程
 
 * [😅 预先准备](Tutorial/Start.md)
 * [😎 创建一个模组](Tutorial/CreateMod.md)
@@ -23,9 +23,17 @@
 * [👍 模组依赖](./BasicConcept/ModDependency.md)
 * [🤗 多语言文本](./BasicConcept/Multilingual.md)
 
-## 😪 高阶技术
+## 😶‍🌫️ 资源加载
+
+* [😣 概览](./ModResources/Overview.md)
+* [😮 Resources](./ModResources/Resources.md)
+* [🤐 AssetBundle](./ModResources/AssetBundle.md)
+
+## 😪 其他技术
 
 * [👌 模组重载](./AdvancedTech/ModReload.md)
+* [🫥 事件监听](./AdvancedTech/ListenHandle.md)
+* [😫 上传模组](./AdvancedTech/ModUpload.md)
 
 ## 🫨 游戏内容添加
 
