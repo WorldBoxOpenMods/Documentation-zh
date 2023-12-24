@@ -16,12 +16,14 @@ layout:
 
 <figure><img src=".gitbook/assets/WBOM-logo2.png" alt=""><figcaption></figcaption></figure>
 
-NeoModLoader(简称NML)支持识别/加载以下几种模组:
+<center>
+该文档主要分为三个部分
+<br><br>
 
-| 模组类型    | 提供支持 |
-| ------- | ---- |
-| BepInEx | 识别   |
-| NCMS    | 加载   |
-| NeoMod  | 加载   |
+ [😇 玩家手册](./PlayerDoc/Install.md)
 
-具体见侧边栏
+ [😅 模组制作](./Tutorial/Start.md)
+
+ [🚗 NML开发](./NMLDev/Start.md)
+
+</center>
