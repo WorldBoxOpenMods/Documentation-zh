@@ -34,6 +34,10 @@
 
 视频没录, 等等吧, 上面应该说得很清楚了.
 
+[代码的示例第一部分](https://github.com/WorldBoxOpenMods/ModExample/blob/master/content/ExampleTraits.cs)
+
+[代码的示例第二部分](https://github.com/WorldBoxOpenMods/ModExample/blob/master/ExampleModCode.cs#L55)
+
 # 提示
 
 1. `MonoBehaviour`的几个如`Awake`,`Update`等函数无法添加`Hotfixable`特性

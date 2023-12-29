@@ -2,6 +2,12 @@
 
 NML为模组提供了多语言文本的支持, 支持能够在游戏内顺利切换语言.
 
+[csv类型示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/Locales/items_lang.csv)
+
+[json类型示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/Locales/cz.json)
+
+[手动加载示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/ExampleModCode.cs#L62)大约在62行左右, `Reload`函数中, 自行寻找
+
 # 使用
 
 NML在语言文本的支持集中在`NeoModLoader.General.LM`

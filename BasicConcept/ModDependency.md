@@ -53,10 +53,17 @@ internal static class ExampleNameGenerators
 }
 ```
 
-在IDE中, 你也需要添加对依赖模组的引用, 除此之外, 你还需要在项目文件中添加模组ID为预定义常量
+在IDE中, 你也需要添加对依赖模组的引用, 除此之外, 你还需要在项目文件中添加模组ID为预定义常量(这一行都是针对你要使用完整IDE功能的情况)
 
+[相关示例代码](https://github.com/WorldBoxOpenMods/ModExample/blob/master/content/ExampleNameGenerators.cs)
+
+[mod.json配置示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/mod.json)
+
+[预定义常量配置示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/ExampleMod.csproj#L21)
 
 # 如何添加对依赖模组的引用
+
+[相关示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/ExampleMod.csproj#L66)
 
 ## DLL引用
 

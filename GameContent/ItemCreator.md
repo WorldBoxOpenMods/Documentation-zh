@@ -8,6 +8,8 @@
 
 因此NML提供了相关的装备创建器`NeoModLoader.General.Game.ItemAssetCreator`. 里面的创建函数的参数即为对应`ItemAsset`有用的所有字段.
 
+[相关示例代码](https://github.com/WorldBoxOpenMods/ModExample/blob/master/content/ExampleItems.cs)
+
 # 武器材质
 
 使用`CreateWeaponMaterial`创建`ItemAsset`后需要自行加入到`AssetManager.items_material_weapon`.

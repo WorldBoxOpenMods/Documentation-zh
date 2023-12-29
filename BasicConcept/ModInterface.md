@@ -21,6 +21,8 @@
 
 这么多接口, 一个个实现太麻烦了, [`BasicMod`](../Packed/BasicMod.md)欢迎你. 打包实现了`IMod`, `IConfigurable`, `ILocalizable`, 并提供了一些有用的函数.
 
+[相关示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/ExampleModCode.cs#L11)
+
 # IMod
 
 通常用于模组主类, 在实现`IMod`接口外, 还需要继承`MonoBehaviour`(除非你有想法做子模组).

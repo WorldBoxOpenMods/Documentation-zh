@@ -4,6 +4,8 @@ NML与NCMS一样, 用`mod.json`文件来表示一个模组的信息. 但不同�
 
 目前NML不支持在子文件夹下搜索`mod.json`, 如果是用于声明模组请直接放置在模组文件夹下. 额外的key并不会与NCMS冲突.
 
+[mod.json示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/mod.json)
+
 # 解析
 
 mod.json文件会按JSON格式等价解析成

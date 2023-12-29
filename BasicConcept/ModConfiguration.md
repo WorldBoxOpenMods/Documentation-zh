@@ -4,6 +4,8 @@ NML为`ModConfig`提供了友好的用户交互界面, 如下图所示
 
 ![ModConfig](../.gitbook/assets/MODCONFIG.png)
 
+[对应的配置文件示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/default_config.json)
+
 对于这样的配置, 你需要你的模组实现`IConfigurable`接口, 并通过`GetConfig`提供一个`ModConfig`实例传递和接收配置信息(当然, 如果你要用这个来实现其他的设置交互也是可以的).
 
 对于BasicMod, 不需要考虑上面那句话, 你只需要在你的模组文件夹下创建一个`default_config.json`文件(ModTemplate已经为你创建好了这个文件), 
@@ -55,6 +57,8 @@ class ExampleType
 }
 
 ```
+
+[回调示例](https://github.com/WorldBoxOpenMods/ModExample/blob/master/content/ExampleActions.cs)
 
 需要注意的是, 对于模组配置窗口的修改, 会在窗口关闭后一并应用, 而不是在修改时同步.
 
