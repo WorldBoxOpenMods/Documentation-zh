@@ -68,6 +68,14 @@ public class ModDeclare
 * `LoadSingleSprite(string)`来加载指定系统路径下的图片文件
 * `LoadSprites(string)`搜寻相关联的`.meta`文件(解释为一个`TextureImporter`, 并提供了一个`SpriteSheet`)或`sprites.json`来加载路径下的图片文件
 
+## 模组名/作者/简介多语言
+
+如果要你的模组在英文环境下 模组名/作者/简介显示为英文(en)，则需要添加本地化文本，相应的key为:
+
+1. `模组名_en`
+2. `作者_en`
+3. `简介_en`
+
 ## AssetBundle拓展
 
 `NeoModLoader.utils.AssetBundleUtils`提供了加载`AssetBundle`文件为`WrappedAssetBundle`的方法(同时避免重复加载).
