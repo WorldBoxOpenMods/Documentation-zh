@@ -51,6 +51,11 @@
 
 * [😍 基础模组](./Packed/BasicMod.md)
 
-## 🚗 NML开发
+## 🚗 NML开发和OpenMods项目
 
 * [📕 介绍](./NMLDev/Start.md)
+* [NML 开发](./NMLDev/NMLDev.md)
+* [NML 模组文档](./NMLDev/NMLDoc.md)
+* [示例模组](./NMLDev/ExampleMod.md)
+* [Unity开发工具包](./NMLDev/UnityDevToolkit.md)
+* [原版代码文档](./NMLDev/GameDoc.md)
